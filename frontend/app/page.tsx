@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Backend Live URL (Render)
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://dsa-mastery-platform.onrender.com";
+const API_BASE_URL = "https://dsa-mastery-platform.onrender.com";
 
 interface TestCase {
   input: string;
